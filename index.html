@@ -24,6 +24,9 @@
       align-items: center;
       justify-content: center;
     }
+    .justify-space-around {
+      justify-content: space-around;
+    }
     .vertical-flex {
       flex-direction: column;
     }
@@ -57,11 +60,18 @@
       height: 30px;
       margin: 5px;
     }
+    .innerbox-7 {
+      width: 100px;
+      height: 100px;
+    }
     </style>
   </head>
   <body>
   <div class='outerbox-basic'>
     <div class='yellow innerbox-1'></div>
+  </div>
+  <div class='outerbox-basic outerbox-flex'>
+    <div class='yellow innerbox-4'></div>
   </div>
   <div class='outerbox-basic outerbox-flex'>
     <div class='yellow innerbox-2'></div>
@@ -70,12 +80,14 @@
     <div class='yellow innerbox-3'></div>
   </div>
   <div class='outerbox-basic outerbox-flex'>
-    <div class='yellow innerbox-4'></div>
+    <div class='yellow innerbox-5'></div>
+    <div class='yellow innerbox-5'></div>
+    <div class='yellow innerbox-5'></div>
   </div>
-  <div class='outerbox-basic outerbox-flex'>
-    <div class='yellow innerbox-5'></div>
-    <div class='yellow innerbox-5'></div>
-    <div class='yellow innerbox-5'></div>
+  <div class='outerbox-basic outerbox-flex justify-space-around'>
+    <div class='yellow innerbox-7'></div>
+    <div class='yellow innerbox-7'></div>
+    <div class='yellow innerbox-7'></div>
   </div>
   <div class='outerbox-basic outerbox-flex vertical-flex'>
     <div class='yellow innerbox-6'>
